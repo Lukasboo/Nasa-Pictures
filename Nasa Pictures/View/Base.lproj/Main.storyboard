@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="1013.6" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller Detail-->
+        <!--Picture Detail View Controller Detail-->
         <scene sceneID="z4g-jd-GLW">
             <objects>
-                <viewController storyboardIdentifier="ViewControllerDetail" id="zXM-ck-dzQ" customClass="ViewControllerDetail" customModule="Nasa_Pictures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerDetail" id="zXM-ck-dzQ" customClass="PictureDetailViewControllerDetail" customModule="Nasa_Pictures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dNM-iY-kxg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

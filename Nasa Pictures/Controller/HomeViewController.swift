@@ -105,7 +105,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
                                 self.opportunity = success
                                 self.sonda = "spirit"
                                 self.loopEnd = true
-                                self.showLoading(true)
                                 DispatchQueue.main.sync {
                                     self.sonda = "curiosity"
                                     self.picturesCollectionView.reloadData()
@@ -113,8 +112,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
                             } else {
                                 self.dateIndex = 0
                                 self.spirit = success
-                                self.loopEnd = true
-                                self.showLoading(false)
+                                self.loopEnd = true                                
                             }
                             self.inRequisition = false
                         } else {
