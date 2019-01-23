@@ -1,9 +1,15 @@
-//
-//  Result.swift
-//  Nasa Pictures
-//
-//  Created by Lucas Daniel on 19/01/19.
-//  Copyright © 2019 Lucas Daniel. All rights reserved.
-//
-
 import Foundation
+struct Result : Codable {
+    let photos : [Photos]?
+    
+    enum CodingKeys: String, CodingKey {
+        
+        case photos = "photos"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        photos = try values.decodeIfPresent([Photos].self, forKey: .photos)
+    }
+    
+}

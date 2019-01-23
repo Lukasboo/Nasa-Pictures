@@ -1,30 +1,28 @@
-//
-//  PictureDetailViewController.swift
-//  Nasa Pictures
-//
-//  Created by Lucas Daniel on 22/01/19.
-//  Copyright © 2019 Lucas Daniel. All rights reserved.
-//
-
 import UIKit
 
-class PictureDetailViewController: UIViewController {
-
+class PictureDetailViewControllerDetail: UIViewController {
+    
+    var sonda: String?
+    var imageURL: String?
+    
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var picture: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+        
+        let imageUrl: URL = URL(string: imageURL!)!
+        let imageData: Data
+        
+        name.text = sonda
+        
+        do {
+            imageData = try! Data(contentsOf: imageUrl)
+            if let image = UIImage(data: imageData as Data) {
+                picture.image = image
+            }
+        } catch {
+            print("erro")
+        }
+    }    
 }

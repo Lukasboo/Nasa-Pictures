@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		6A53EB9221F347DF008D7532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EB9121F347DF008D7532 /* AppDelegate.swift */; };
-		6A53EB9421F347DF008D7532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EB9321F347DF008D7532 /* ViewController.swift */; };
 		6A53EB9721F347DF008D7532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A53EB9521F347DF008D7532 /* Main.storyboard */; };
 		6A53EB9A21F347DF008D7532 /* Nasa_Pictures.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EB9821F347DF008D7532 /* Nasa_Pictures.xcdatamodeld */; };
 		6A53EB9C21F347E2008D7532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A53EB9B21F347E2008D7532 /* Assets.xcassets */; };
 		6A53EB9F21F347E2008D7532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A53EB9D21F347E2008D7532 /* LaunchScreen.storyboard */; };
+		6A53EBAE21F34897008D7532 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBA921F34897008D7532 /* Camera.swift */; };
+		6A53EBB021F34897008D7532 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBAB21F34897008D7532 /* Cameras.swift */; };
+		6A53EBB121F34897008D7532 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBAC21F34897008D7532 /* Photos.swift */; };
+		6A53EBB221F34897008D7532 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBAD21F34897008D7532 /* Rover.swift */; };
+		6A53EBB621F34982008D7532 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBB521F34982008D7532 /* Result.swift */; };
+		6A53EBB821F34A3D008D7532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBB721F34A3D008D7532 /* Constants.swift */; };
+		6A53EBBA21F34BB5008D7532 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53EBB921F34BB5008D7532 /* Client.swift */; };
+		6A5E6FA921F77AF500234138 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E6FA821F77AF500234138 /* HomeViewController.swift */; };
+		6A5E6FAB21F77B5F00234138 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E6FAA21F77B5F00234138 /* PictureDetailViewController.swift */; };
+		6AB58C7021F6790A00DA2362 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB58C6E21F6790A00DA2362 /* Modal.swift */; };
+		6AB58C7121F6790A00DA2362 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB58C6F21F6790A00DA2362 /* CustomAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A53EB8E21F347DF008D7532 /* Nasa Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A53EB9121F347DF008D7532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A53EB9321F347DF008D7532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A53EB9621F347DF008D7532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A53EB9921F347DF008D7532 /* Nasa_Pictures.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nasa_Pictures.xcdatamodel; sourceTree = "<group>"; };
 		6A53EB9B21F347E2008D7532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A53EB9E21F347E2008D7532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A53EBA021F347E2008D7532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A53EBA921F34897008D7532 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../../../../Downloads/codegen_5c43103311666/Camera.swift; sourceTree = "<group>"; };
+		6A53EBAB21F34897008D7532 /* Cameras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cameras.swift; path = ../../../../Downloads/codegen_5c43103311666/Cameras.swift; sourceTree = "<group>"; };
+		6A53EBAC21F34897008D7532 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photos.swift; path = ../../../../Downloads/codegen_5c43103311666/Photos.swift; sourceTree = "<group>"; };
+		6A53EBAD21F34897008D7532 /* Rover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rover.swift; path = ../../../../Downloads/codegen_5c43103311666/Rover.swift; sourceTree = "<group>"; };
+		6A53EBB521F34982008D7532 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		6A53EBB721F34A3D008D7532 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6A53EBB921F34BB5008D7532 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		6A5E6FA821F77AF500234138 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6A5E6FAA21F77B5F00234138 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		6AB58C6E21F6790A00DA2362 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Modal.swift; path = "../../../udacity1/Ta No Mapa/Ta No Mapa/View/Modal.swift"; sourceTree = "<group>"; };
+		6AB58C6F21F6790A00DA2362 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAlertView.swift; path = "../../../udacity1/Ta No Mapa/Ta No Mapa/View/CustomAlertView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		6A53EB9021F347DF008D7532 /* Nasa Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				6A5E6F7C21F73E2900234138 /* Scenes */,
+				6A53EBA821F34862008D7532 /* Controller */,
+				6A53EBA721F3485D008D7532 /* View */,
+				6A53EBA621F3484B008D7532 /* Model */,
 				6A53EB9121F347DF008D7532 /* AppDelegate.swift */,
-				6A53EB9321F347DF008D7532 /* ViewController.swift */,
-				6A53EB9521F347DF008D7532 /* Main.storyboard */,
 				6A53EB9B21F347E2008D7532 /* Assets.xcassets */,
-				6A53EB9D21F347E2008D7532 /* LaunchScreen.storyboard */,
 				6A53EBA021F347E2008D7532 /* Info.plist */,
 				6A53EB9821F347DF008D7532 /* Nasa_Pictures.xcdatamodeld */,
 			);
 			path = "Nasa Pictures";
+			sourceTree = "<group>";
+		};
+		6A53EBA621F3484B008D7532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A53EBA921F34897008D7532 /* Camera.swift */,
+				6A53EBAB21F34897008D7532 /* Cameras.swift */,
+				6A53EBAC21F34897008D7532 /* Photos.swift */,
+				6A53EBAD21F34897008D7532 /* Rover.swift */,
+				6A53EBB521F34982008D7532 /* Result.swift */,
+				6A53EBB721F34A3D008D7532 /* Constants.swift */,
+				6A53EBB921F34BB5008D7532 /* Client.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A53EBA721F3485D008D7532 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AB58C6F21F6790A00DA2362 /* CustomAlertView.swift */,
+				6AB58C6E21F6790A00DA2362 /* Modal.swift */,
+				6A53EB9521F347DF008D7532 /* Main.storyboard */,
+				6A53EB9D21F347E2008D7532 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A53EBA821F34862008D7532 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E6FA821F77AF500234138 /* HomeViewController.swift */,
+				6A5E6FAA21F77B5F00234138 /* PictureDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A5E6F7C21F73E2900234138 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A53EB9421F347DF008D7532 /* ViewController.swift in Sources */,
+				6A53EBB021F34897008D7532 /* Cameras.swift in Sources */,
+				6A5E6FA921F77AF500234138 /* HomeViewController.swift in Sources */,
+				6AB58C7121F6790A00DA2362 /* CustomAlertView.swift in Sources */,
+				6A53EBAE21F34897008D7532 /* Camera.swift in Sources */,
 				6A53EB9221F347DF008D7532 /* AppDelegate.swift in Sources */,
+				6A53EBB221F34897008D7532 /* Rover.swift in Sources */,
 				6A53EB9A21F347DF008D7532 /* Nasa_Pictures.xcdatamodeld in Sources */,
+				6A53EBB621F34982008D7532 /* Result.swift in Sources */,
+				6AB58C7021F6790A00DA2362 /* Modal.swift in Sources */,
+				6A53EBB121F34897008D7532 /* Photos.swift in Sources */,
+				6A5E6FAB21F77B5F00234138 /* PictureDetailViewController.swift in Sources */,
+				6A53EBBA21F34BB5008D7532 /* Client.swift in Sources */,
+				6A53EBB821F34A3D008D7532 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

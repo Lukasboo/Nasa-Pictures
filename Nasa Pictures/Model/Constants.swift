@@ -1,9 +1,17 @@
-//
-//  Constants.swift
-//  Nasa Pictures
-//
-//  Created by Lucas Daniel on 19/01/19.
-//  Copyright © 2019 Lucas Daniel. All rights reserved.
-//
-
 import Foundation
+import UIKit
+
+struct Constants {
+    static let ApiScheme = "https"
+    static let ApiHost = "api.nasa.gov/mars-photos"
+    static let ApiPath = "/v1/session/rovers"    
+}
+
+struct ParametersValues {
+    static let APIKey = "QuWThTdiRmTux3YaDseUSEpUKo7aBYM737yKd4gY"    
+}
+
+class Screen {
+    static let screenHeight = UIScreen.main.bounds.height
+    static let screenWidth = UIScreen.main.bounds.width
+}
